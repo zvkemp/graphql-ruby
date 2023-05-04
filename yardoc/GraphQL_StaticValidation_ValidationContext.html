@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="1;url=/api-doc/2.0.21/GraphQL/StaticValidation/ValidationContext" />
+  </head>
+  <body>
+    <p>Class: GraphQL::StaticValidation::ValidationContext &lt; Object
+The validation context gets passed to each validator. 
+It exposes a GraphQL::Language::Visitor where validators may add
+hooks. (Language::Visitor#visit is called in Validator#validate) 
+It provides access to the schema &amp; fragments which validators may
+read from. 
+It holds a list of errors which each validator may add to. 
+It also provides limited access to the TypeStack instance, which
+tracks state as you climb in and out of different fields. 
+Extended by:
+Forwardable
+Instance methods:
+initialize, on_dependency_resolve, schema_directives,
+too_many_errors?, validate_literal</p>
+
+
+  </body>
+</html>
